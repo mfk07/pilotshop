@@ -1,0 +1,45 @@
+/*BASE STYLING*/
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* NAV STYLING*/
+.primary-nav{
+	display: flex;
+	flex-direction: row;
+	background-color: #f8f8f8;
+	color: #b7b7b8;
+	width: 100%;
+}
+
+.primary-nav a {
+	color: #b7b7b8;
+}
+
+.secondary-nav {
+	display: flex;
+	flex-direction: row;
+	color: #3b3442;
+	width: 100%;
+}
+
+.secondary-nav a {
+	color: #3b3442;
+}
+
+.logo {
+	justify-content: flex-start;
+}
+
+.phone-number {
+	justify-content: flex-start;
+}
+
+.nav-list {
+	justify-content: flex-end;
+}
