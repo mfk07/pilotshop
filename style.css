@@ -19,14 +19,14 @@ body {
 	background-color: #f8f8f8;
 	color: #b7b7b8;
 	width: 100%;
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: bold;
 	align-items: center;
 }
 
 .primary-nav a {
 	color: #b7b7b8;
-	margin: 0 16px 0 0;
+	margin: 0 20px 0 0;
 }
 
 .secondary-nav {
@@ -34,7 +34,7 @@ body {
 	flex-direction: row;
 	color: #3b3442;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 16px;
 	width: 100%;
 	align-items: center;
 	padding: 30px 0;
@@ -42,13 +42,6 @@ body {
 
 .secondary-nav a {
 	color: #000000;
-	margin: 0 8px 0 0;
-}
-
-#logo {
-	justify-content: flex-start;
-	flex: 0 0 33%;
-	padding: 0 60px;
 }
 
 .phone-number {
@@ -58,7 +51,7 @@ body {
 	color: #a4a4a4;
 }
 
-.nav-list {
+.primary-nav-list {
 	flex: 0 0 66%;
 	text-align: right;
 }
@@ -69,5 +62,47 @@ body {
 	border-height: 100%;
 	padding-right: 16px;
 	color: #b7b7b8;
+}
+
+#logo-container {
 	
 }
+
+#logo {
+	padding: 0 60px;
+}
+
+.secondary-nav-list {
+	display: flex;
+	flex: 0 0 66%;
+	text-align: center;
+	justify-content: space-around;
+	padding: 0 14px;
+}
+
+/* HEADER STYLING*/
+.carousel-container {
+	height: 1500px;
+	width: 100%;
+	background-image: url("/Users/mfk/Desktop/iOAcademy/W1/Friday/PilotShop/Carousel-image-1.webp");
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+}
+
+
+/* MAIN STYLING*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
